@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+   
+    <meta name="description" content="Lombok Accent Plant Website">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="AmbyMbayi">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/style.css" />
+    <title>Lombok</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <a href="#">LO</a>
+        </div>
+
+        <ul class="header__links">
+          <li><a href="#">about</a></li>
+          <li><a href="#">article</a></li>
+        </ul>
+        <div class="header__cta">
+          <a href="#">subscribe</a>
+        </div>
+      </nav>
+    </header>
+    <div class="hero__section">
+       <div class="hero__text">
+           <h2>Lombok</h2>
+           <p>Holistic Health</p>
+           <span></span>
+       </div>
+        
+    </div>
+    <div class="article__section">
+      <h2>Latest Article</h2>
+      <span></span>
+        <div class="article__content">
+          <div class="grid">
+            <div class="article__grid">
+                  <div class="article__image" style="background-image: url('images/nature.jpg');"></div>
+                  <div class="article__text">
+                    <h3 class="article__title">Article Title</h3>
+                    <p class="article__author"> By: Ambrose Mbayi</p>
+                    <p class="article__description">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem </p>
+                    <button class="article__button">Read More</button>
+                  </div>
+            </div>
+            <div class="article__grid">
+              <div class="article__image" style="background-image: url('images/nature.jpg');"></div>
+              <div class="article__text">
+                <h3 class="article__title">Article Title</h3>
+                <p class="article__author"> By: Ambrose Mbayi</p>
+                <p class="article__description">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem </p>
+                <button class="article__button">Read More</button>
+              </div>
+        </div>
+        
+            <div class="article__grid">
+              <div class="article__image" style="background-image: url('images/nature.jpg');"></div>
+              <div class="article__text">
+                <h3 class="article__title">Article Title</h3>
+                <p class="article__author"> By: Ambrose Mbayi</p>
+                <p class="article__description">Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It's also called placeholder (or filler) text. It's a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem </p>
+                <button class="article__button">Read More</button>
+              </div>
+       </div>
+          </div>
+            
+        </div>
+       
+      </div>
+    </div>
+    <div class="about__section">
+     
+      <div class=" column about__image">
+          <img src="images/nature.jpg" alt="">
+      </div>
+      <div class=" column about__content">
+        <h2>About</h2>
+        <span></span>
+        <p>Lorem ipsum is a pseudo-Latin text used in web design, 
+            typography, layout, and printing in place of English to 
+            emphasise design elements over content. It's also called
+             placeholder (or filler) text. It's a convenient tool for mock-ups. 
+             It helps to outline the visual elements of a document or presentation,
+             eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin 
+             text by the classical </p>
+      </div>
+    </div>
+    <div class="subscribe__section">
+        <div class="subscribe__content">
+            <h2>Subscribe</h2>
+            <p>Sign up for our news letter</p>
+            <input type="text" placeholder="enter email"/>
+            <button class="submit__button">Submit</button>
+        </div>
+     
+    </div>
+    <footer class="footer">
+      <img src="images/facebook.png" alt="" />
+      <img src="images/instagram.png" alt="" />
+      <img src="images/pinterest.png" alt="" />
+      <img src="images/twitter.png" alt="" />
+
+      <ul class="footer__links">
+        <li><a href="">About</a></li>
+        <li><a href="">Article</a></li>
+        <li><a href="">Subscribe</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

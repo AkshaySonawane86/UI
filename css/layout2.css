@@ -1,0 +1,57 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 70%;
+    min-height: 100px;
+    border: 2px solid #000;
+    margin: auto;
+}
+
+.main-logo-menu
+{
+    width: 100%;
+    min-height: 60px;
+    /*  height do not work with %. This work px and vh */
+    background-color: #35374B;
+}
+
+.main-logo-menu .logo
+{
+    width: 40%;
+    min-height: 60px;
+    border: 2px solid #000;
+    float: left;
+}
+
+.logo h1
+{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    color: wheat;
+}
+
+.main-logo-menu .menu
+{
+    width: 55%;
+    min-height: 60px;
+    border: 2px solid #000;
+    float: right;
+}
+
+.menu a
+{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* text-align: center; */
+}

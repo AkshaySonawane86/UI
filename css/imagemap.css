@@ -1,0 +1,30 @@
+*
+{
+    padding: 0;
+    margin:10px;
+    box-sizing: border-box;
+}
+
+.container
+{
+
+    /* width: 90%; */
+    height: 900px;
+    border: 2px solid #fe1f1f;
+    margin: auto;
+}
+
+.slider
+{
+    width: 90%;
+    height: 600px;
+    border: 2px solid #000;
+    margin: auto;
+    margin-top:35px;
+     
+}
+
+.slider img{
+    width: 97%;
+    height: 97%;
+}

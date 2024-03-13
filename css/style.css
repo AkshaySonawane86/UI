@@ -1,0 +1,26 @@
+
+   
+   .box h1{
+       color: black;
+       border: 5px solid black;
+       width: 100px;
+       margin: auto;
+   }
+   p{
+     color: #000;
+     text-align: justify;
+     width: 300px;
+     height: 180px;
+     border: 5px solid black;
+     padding: 20px;
+     background-color: lightcoral;
+     margin: 10px auto;
+     box-shadow: 5px 10px 2px black;
+   }
+
+   .text h2{
+    color: #000;
+    border: 5px solid black;
+    width: 100px;
+    margin: 25px auto;
+   }

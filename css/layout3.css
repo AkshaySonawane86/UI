@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contaier
+{
+    width: 100%;
+    min-height: 900px;
+    border: 2px solid #000;
+}
+
+.contaier .main-logo-menu 
+{
+    width: 100%;
+    min-height: 300px;
+    border: 2px solid #000;
+}
+
+.main-logo-menu .main{
+    width: 100%;
+    min-height: 100px;
+    border: 2px solid #000;
+}
+.main .logo{
+    width: 30%;
+    height: 100px;
+    border: 2px solid #000;
+    
+    float: left;
+}
+
+.logo h1{
+    font-size: 2em;
+    padding: 20px;
+}
+.main-logo-menu .logo1
+{
+    width: 50%;
+    height: 100px;
+    border: 2px solid #000;
+    float: right;
+    padding: 20px;
+}
+
+.logo1 a
+{
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2em;
+}
+
+.main-logo-menu .menu{
+    width: 100%;
+    height: 500px;
+    border: 2px solid #000;
+}
+
+.menu img{
+    width: 100%;
+    height: 500px;
+}
+
+.contaier .slider
+{
+    width: 100%;
+    min-height: 500px;
+    border: 2px solid #000;
+}
+
+.slider .big
+{
+    width: 80%;
+    min-height: 250px;
+    border: 2px solid #000;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.big .box{
+    width: 22%;
+    min-height: 250px;
+    border: 2px solid #000;
+    float: left;
+    margin-right: 18px;
+}
+
+.box img{
+    width: 100%;
+    min-height: 260px;
+}
+
+.contaier .slider2
+{
+    width: 100%;
+    min-height: 500px;
+    border: 2px solid #000;
+}
+
+.slider2 .big2
+{
+    width: 80%;
+    min-height: 500px;
+    border: 2px solid #000;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.big2 .box1{
+    width: 49%;
+    min-height: 400px;
+    border: 2px solid #000;
+    float: left;
+    /* margin-right: 25px; */
+    /* margin-left: 15px; */
+}
+
+.box1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.big2 .box2{
+    width: 49%;
+    min-height: 400px;
+    border: 2px solid #000;
+    float: right;
+    /* margin-right: 18px; */
+}
+
+.box2 img{
+    width: 100%;
+    height: 210px;
+}
+
+.box2 .smallbox
+{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 9px;
+    border: 2px solid #000;
+}
+
+.smallbox img{
+    width: 100%;
+    height: 210px;
+}
+
+.contaier .flatter
+{
+    width: 100%;
+    min-height: 300px;
+    border: 2px solid #000;
+}
+
+.clerfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
