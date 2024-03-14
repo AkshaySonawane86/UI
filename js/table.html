@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .box
+        {
+            width: 80%;
+            min-height: 300px;
+            border: 2px solid #000;
+            margin: auto;
+            /* text-align: center; */
+            padding: 20px;
+            margin-top: 50px;
+        }
+       
+        table,tr,th,td{
+           border: 1px solid #000;
+           width: 700px;
+           height: 50px;
+           text-align: center;
+           border-collapse: collapse;
+        }
+        
+        table th
+        {
+            color: red;
+        }
+
+        tr:nth-child(even)
+        {
+            background-color: aquamarine;
+        }
+
+        tr:hover
+        {
+            background-color: #000;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <center>
+            <table>
+              <tr>
+                 <th>Student Id</th>
+                 <th>Student Name</th>
+                 <th>Contacts</th>
+                 <th>Address</th>
+                 <th>Profile</th>
+             </tr>
+             <tr>
+                 <td>1</td>
+                 <td>AAAAA</td>
+                 <td >11111</td>
+                 <td rowspan="2">aaaaa</td>
+                 <td>
+                    <img src="../imgs/u1.jpg.png">
+                    <!-- <img src="../imgs/u1.jpg.png" width="160px" height="160px"> -->
+                 </td>
+             </tr>
+             
+             <tr>
+                <td>2</td>
+                <td>BBBBB</td>
+                <td>22222</td>
+                <!-- <td>22222</td> -->
+                <!-- <td>bbbbb</td> -->
+                <td>
+                    <img src="../imgs/u2.jpg.png">
+                 </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>CCCCC</td>
+                <td>33333</td>
+                <td>ccccc</td>
+                <td>
+                    <img src="../imgs/u1.jpg.png">
+                 </td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>DDDDD</td>
+                <td>44444</td>
+                <td>ddddd</td>
+                <td>
+                    <img src="../imgs/u2.jpg.png">
+                 </td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>EEEEE</td>
+                <td>55555</td>
+                <td>eeeee</td>
+                <td>
+                    <img src="../imgs/u1.jpg.png">
+                 </td>
+            </tr>
+            </table> 
+        </center>  
+    </div>
+</body>
+</html>
