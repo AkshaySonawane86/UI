@@ -71,6 +71,13 @@ input[type=text2]
     padding: 15px 25px;
 }
 
+input[type=date]
+{
+   width: 20%;
+   padding: 5px;
+   margin-left: 27px;
+}
+
 .box .box4
 {
     width: 100%;
@@ -114,6 +121,43 @@ input[type=text5]
     /* border: 2px solid #000; */
     padding: 15px 25px;
 }
+
+.box6 .radio1
+{
+    width: 20px;
+    height: 30px;
+    /* border: 2px solid #000; */
+    margin-left: 185px;
+    margin-top: -16px;
+}
+
+.box6 p
+{
+    margin-top: -18PX;
+    padding-left: 145px;
+}
+
+.box6 .radio2
+{
+    width: 20px;
+    height: 30px;
+    /* border: 2px solid #000; */
+    margin-left: 263px;
+    margin-top: -16px;
+}
+
+#p2
+{
+    margin-top: -32PX;
+    padding-left: 210px;
+}
+
+/* input[type=radio]
+{
+   width: 20%;
+   margin-left: 20px;
+   padding: 10px 1px;
+} */
 
 .box .box7
 {
@@ -216,6 +260,34 @@ input[type=text11]
     /* border: 2px solid #000; */
     padding: 15px 25px;
 }
+.box12 input{
+    margin-right: 20px;
+}
+/* #h1
+{
+   
+    margin-top: -19px;
+} */
+#aa
+{
+    margin-left:72px ;
+}
+/* span{
+    margin-left: 60px;
+} */
+input[type=checkbox]
+{
+    /* width: 20%; */
+    /* margin-left: 80px; */
+    
+}
+
+input[type=text12]
+{
+   /* width: 20%; */
+   padding: 5px;
+   /* margin-left: 65px; */
+}
 
 .box .box13
 {
@@ -277,6 +349,16 @@ p{
     height: 70px;
     /* border: 2px solid #000; */
     padding: 15px 25px;
+}
+
+#bb
+{
+    margin-left: 38px;
+}
+
+.box14 input
+{
+    margin-right: 15px;
 }
 
 .box .box15

@@ -148,6 +148,16 @@ a:hover
     font-size: 1.3em;
 }
 
+.box2:hover
+{
+    background-color: #b5b5b5;
+}
+
+a:hover
+{
+    color: #000;
+}
+
 .box2 img
 {
     padding-left: 18px;
