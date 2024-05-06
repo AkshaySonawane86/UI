@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout11</title>
+    <link rel="stylesheet" href="css/Layout11.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="logo1">logo</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Servies</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="slider1">slider1</div>
+        <div class="slider2">slider2</div>
+        <div class="slider3">slider3</div>
+        <div class="slider4">slider4</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>

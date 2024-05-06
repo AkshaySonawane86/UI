@@ -1,0 +1,145 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-color: orchid;
+}
+
+.container
+{
+    width: 80%;
+    height: 500px;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.container .box1
+{
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box2
+{
+    width: 100%;
+    height: 396px;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-direction: row;
+}
+
+.box2 .sbox1
+{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 .sbox2
+{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid #000; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.sbox1 h2
+{
+    margin: 25px 0 18px 120px;
+}
+
+.sbox1 p
+{
+    margin: 0 0 11px 120px;
+    color: gray;
+}
+
+.sbox2 img
+{
+    width: 38px;
+    height: 38px;
+    margin-top: 20px;
+}
+
+#imgs2
+{
+    margin: 20px 5px 0 270px;
+}
+
+.sbox2 p
+{
+    margin-left: 265px;
+    margin-top: 10px;
+}
+
+input[type=text]
+{
+    width: 70%;
+    height: 30px;
+    margin: 30px 0 0 100px;
+    border-top: white;
+    border-left: white;
+    border-right: white ;
+}
+
+input[type=checkbox]
+{
+    margin: 11px 0 0 80px;
+    /* background-color: white; */
+    /* color: royalblue; */
+}
+
+/* input[type=checkbox]:hover
+{
+    background-color: white; 
+    color: red;
+} */
+
+#p1
+{
+    margin: 7px 0 0 18px;
+    color: gray;
+}
+
+#p1 span
+{
+    color: #000;
+    font-weight: 600;
+}
+
+.start
+{
+    width: 150px;
+    height: 40px;
+    /* border: 2px solid #000; */
+    border-radius: 25px;
+    margin: 16px 0 0 230px;
+    /* background-color: royalblue; */
+}
+
+.start button
+{
+   width: 100%;
+   height: 100%;
+   border-radius: 25px;
+   background-color: orchid;
+   color: white;
+}

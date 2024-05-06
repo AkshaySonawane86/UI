@@ -1,0 +1,92 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 80%;
+    min-height: 600px;
+    border: 2px solid #000;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 60px 300px 300px 300px 60px;
+    grid-template-areas: "logo logo"
+                         "slider1 slider1"
+                         "slider2 slider3"
+                         "slider2 slider4"
+                         "footer footer";
+    grid-gap: 10px;
+}
+
+.logo
+{
+    background-color: lightblue;
+    /* color: #000; */
+    /* display: grid; */
+    grid-area: logo;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.logo .logo1
+{
+   padding: 20px;
+}
+
+.logo .menu
+{
+    padding: 20px;
+}
+
+.menu ul
+{
+    display: flex;
+    
+}
+
+.menu ul li a
+{
+    margin: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.slider1
+{
+    background-color: lightcoral;
+    /* display: grid; */
+    grid-area: slider1;
+}
+
+.slider2
+{
+    background-color: lightgreen;
+    /* display: grid; */
+    grid-area: slider2;
+    width: 250px;
+}
+
+.slider3
+{
+    background-color: lightseagreen;
+    /* display: grid; */
+    grid-area: slider3;
+    width: 950px;
+}
+
+.slider4
+{
+    background-color: lightslategray;
+    /* display: grid; */
+    grid-area: slider4;
+}
+
+.footer
+{
+    background-color: lightgrey;
+    /* display: grid; */
+    grid-area: footer;
+}

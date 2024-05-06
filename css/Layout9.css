@@ -1,0 +1,46 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    /* display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: 20px ; */
+}
+
+.box
+{
+    width: 80%;
+    min-height: 600px;
+    border: 2px solid #000;
+    margin: auto;
+    display: grid;
+}
+
+.b1
+{
+    background-color: aqua;
+    color: #fff;
+}
+
+.b2
+{
+    background-color: blue;
+    color: #fff;
+}
+
+.b3
+{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.b4
+{
+    background-color: brown;
+    color: #fff;
+}
